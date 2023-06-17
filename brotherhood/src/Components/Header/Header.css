@@ -12,8 +12,24 @@
 
 .header-container {
   background-color: var(--charcoal-grey);
-  padding: 0 50px;
+  padding: 0 100px;
   height: 10vh;
   display: flex;
-  
+  justify-content: space-around;
+}
+
+.header-nav-anchors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-nav-anchors a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav-anchors a:hover {
+  color: wheat;
 }

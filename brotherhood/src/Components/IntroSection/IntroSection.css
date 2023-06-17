@@ -1,0 +1,54 @@
+
+h2 {
+  color: var(--charcoal-grey);
+  font-size: 50px;
+}
+
+.IntroSection-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.IntroSection-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.IntroSection-mission-div p {
+  color: var(--charcoal-grey);
+  text-align: start;
+  width: 35vw;
+  font-size: 1.5rem;
+}
+
+.button-style {
+  background-color: var(--charcoal-grey);
+  width: 200px;
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 5px;
+  height: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  background-color: white;
+  border: 3px solid var(--charcoal-grey);
+  color: var(--charcoal-grey);
+}
+
+.IntroImage {
+  border-radius: 10%;
+  height: 300px;
+  width: 300px;
+  border: solid 5px var(--charcoal-grey);
+}
+
+
+

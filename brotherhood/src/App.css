@@ -4,6 +4,7 @@
   --slate-green: #556B2F;
   --rust-orange: #D35400;
   --gunmetal-silver: #808080;
+  font-family: Monsertat
 }
 
 .App {
@@ -13,6 +14,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.banner {
+  height: 75px;
+  width: 100%;
+  background-color: var(--charcoal-grey);
 }
 
 @media (prefers-reduced-motion: no-preference) {
