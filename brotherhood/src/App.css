@@ -1,0 +1,22 @@
+:root {
+  --charcoal-grey: #333333;
+  --midnight-blue: #001F3F;
+  --slate-green: #556B2F;
+  --rust-orange: #D35400;
+  --gunmetal-silver: #808080;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

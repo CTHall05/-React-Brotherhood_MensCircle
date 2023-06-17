@@ -1,0 +1,19 @@
+:root {
+  --charcoal-grey: #333333;
+  --midnight-blue: #001F3F;
+  --slate-green: #556B2F;
+  --rust-orange: #D35400;
+  --gunmetal-silver: #808080;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: var(--charcoal-grey);
+  padding: 0 50px;
+  height: 10vh;
+  display: flex;
+  
+}
