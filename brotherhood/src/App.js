@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header.js';
 import IntroSection from './Components/IntroSection/IntroSection';
+import Facts from './Components/Facts/Facts';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header></Header>
       <IntroSection></IntroSection>
       <div className='banner'></div>
+      <Facts></Facts>
     </div>
   );
 }

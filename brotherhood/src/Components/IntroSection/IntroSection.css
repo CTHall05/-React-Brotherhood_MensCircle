@@ -1,8 +1,20 @@
 
-h2 {
+.IntroSection-h2 {
   color: var(--charcoal-grey);
   font-size: 50px;
+  position: relative;
+  padding-bottom: 10px;
 }
+
+.IntroSection-h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%; /* Adjust the value to control the starting point of the border */
+  width: 80%; /* Adjust the value to control the length of the border */
+  border-bottom: 2px solid var(--charcoal-grey);
+}
+
 
 .IntroSection-section {
   display: flex;
@@ -28,19 +40,19 @@ h2 {
 
 .button-style {
   background-color: var(--charcoal-grey);
-  width: 200px;
   font-size: larger;
   font-weight: 900;
   border-radius: 5px;
-  height: 100px;
+  width: 200px;
+  height: 80px;
   color: white;
   cursor: pointer;
 }
 
 .button-style:hover {
-  background-color: white;
+  background-color: var(--calm-green);
   border: 3px solid var(--charcoal-grey);
-  color: var(--charcoal-grey);
+  color: white;
 }
 
 .IntroImage {

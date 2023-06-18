@@ -1,7 +1,7 @@
 :root {
   --charcoal-grey: #333333;
   --midnight-blue: #001F3F;
-  --slate-green: #556B2F;
+  --calm-green: #939f83;
   --rust-orange: #D35400;
   --gunmetal-silver: #808080;
   box-sizing: border-box;
@@ -31,5 +31,5 @@
 }
 
 .header-nav-anchors a:hover {
-  color: wheat;
+  color: var(--calm-green);
 }

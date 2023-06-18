@@ -5,7 +5,7 @@ import IntroImage from '../../Images/wanderer.jpg';
 export default function IntroSection() {
   return (
     <section className='IntroSection-section'>
-      <h2>Men's Support Network.</h2>
+      <h2 className='IntroSection-h2'>Men's Support Network.</h2>
       <div className='IntroSection-main-container'>
         <div className='IntroSection-mission-div'>
           <img className="IntroImage" src={IntroImage} alt="Man looking at the horizen" />
