@@ -1,8 +1,17 @@
-import React from 'react';
+import {React, useState} from 'react';
 import '../Facts/Facts.css';
 import ManThinking from '../../Images/manthinking.jpg';
 
 export default function Facts() {
+
+  const [showSolution, setShowSolution] = useState(false);
+
+  const handleClickSolution = () => {
+    setShowSolution(true);
+    console.log("Ues")
+  };
+
+
   return (
     <section id="facts" className='facts-container'>
       <h2 className="facts-container-h2">Facts</h2>
@@ -25,7 +34,10 @@ export default function Facts() {
             </ul>
           </div>
         </div>
-        <img className="facts-component-image" src={ManThinking} alt="A Man thinking silently." />
+        <div className='facts-component-image-container'>
+          <img className="facts-component-image" src={ManThinking} alt="A Man thinking silently." />
+          <button onClick={handleClickSolution} className='button-style'>The Solution</button>
+        </div>        
       </div>
     </section>
   )
