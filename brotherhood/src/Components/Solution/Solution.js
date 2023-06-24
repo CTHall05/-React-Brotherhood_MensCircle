@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import '../Solution/Solution.css';
 
 export default function Solution() {
   return (
-    <div>yes</div>
+    <h1>YES</h1>
   )
 }
