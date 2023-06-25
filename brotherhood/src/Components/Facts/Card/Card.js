@@ -1,13 +1,9 @@
 import { useState } from 'react';
 import './Card.css';
 
-const Card = ({ title, image, content }) => {
-  const [isExpanded, setExpanded] = useState(false);
-  const [isContentVisible, setContentVisible] = useState(false);
-
+const Card = ({ title, image, content, isExpanded, onClick }) => {
   const handleExpandClick = () => {
-    setExpanded(!isExpanded);
-    setContentVisible(!isContentVisible);
+    onClick();
   };
 
   return (
@@ -20,13 +16,12 @@ const Card = ({ title, image, content }) => {
         {isExpanded ? 'Close' : 'Expand'}
       </button>
       {isExpanded && (
-        <div className={`card-content ${isContentVisible ? 'visible' : ''}`}>
+        <div className={`card-content ${isExpanded ? 'visible' : ''}`}>
           {content}
         </div>
       )}
     </div>
   );
 };
-
 
 export default Card;
