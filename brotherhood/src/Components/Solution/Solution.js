@@ -38,9 +38,9 @@ const Solution = () => {
          <img src={Friends} alt="A group of guy friends!"/>
         </div>
         <div className="solution-card-content">
-          <h3>Mastery</h3>
+          <h3>Finances and Goals</h3>
           <ul>
-            <li>Bullet point 1</li>
+            <li>Is there something financial </li>
             <li>Bullet point 2</li>
             <li>Bullet point 3</li>
           </ul>

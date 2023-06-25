@@ -31,6 +31,13 @@
   padding: 50px;
 }
 
+.IntroSection-mission-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
 .IntroSection-mission-div p {
   color: var(--charcoal-grey);
   text-align: start;
@@ -47,6 +54,7 @@
   height: 80px;
   color: white;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 .button-style:hover {
@@ -57,8 +65,8 @@
 
 .IntroImage {
   border-radius: 10%;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 350px;
   border: solid 5px var(--charcoal-grey);
 }
 
