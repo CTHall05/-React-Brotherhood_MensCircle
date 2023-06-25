@@ -22,9 +22,10 @@ export default function Facts() {
 
   return (
     <section id="facts" className="facts-container">
-      <h2 id="facts-h2" className="facts-container-h2">Facts</h2>
+      
       {!showSolution && (
         <div className="mens-facts-card">
+          <h2 id="facts-h2" className="facts-container-h2">Facts</h2>
           <Card
             title="Male Suicide"
             image={ManThinking}
