@@ -11,24 +11,22 @@
 }
 
 .card {
-  background-color: white;
+  background-color: #f5f5f5;
   border-radius: 8px;
-  padding: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   position: relative;
   overflow: hidden;
-  transition: height 0.3s ease-in-out;
-  max-width: 400px; /* Set the maximum width for the card */
+  transition: transform 0.3s ease-in-out;
+  max-width: 500px; /* Adjust the maximum width as needed */
 }
 
 .card.expanded {
-  height: auto; /* Allow the card to expand based on content */
+  transform: translateY(0);
 }
 
 .card h3 {
@@ -41,11 +39,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .card-image {
-  max-width: 100%;
+  width: 400px;
   height: 300px;
   object-fit: cover;
   border-radius: 8px;
@@ -53,7 +50,7 @@
 }
 
 .expand-button {
-  background-color: var(--calm-green);
+  background-color: var(--charcoal-grey);
   color: white;
   padding: 8px 16px;
   border: none;
@@ -63,13 +60,15 @@
 }
 
 .card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  text-align: start;
 }
 
 .card-content.visible {
+  height: auto;
   opacity: 1;
   color: black;
   z-index: 1;
