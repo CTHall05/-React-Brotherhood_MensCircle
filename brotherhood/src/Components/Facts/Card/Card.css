@@ -1,0 +1,63 @@
+.card {
+  background-color: gray;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: solid 2px #333;
+}
+
+
+.expand-button {
+  background-color: var(--charcoal-grey);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-content {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 2.0s ease-in-out, opacity 2.0s ease-in-out;
+  text-align: start;
+}
+
+.card-content.visible {
+  height: auto;
+  opacity: 1;
+  color: black;
+  z-index: 1;
+}
+
+/* Additional styling as needed */
