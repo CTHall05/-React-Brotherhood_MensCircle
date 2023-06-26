@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.solution-container h2 {
+  font-size: 50px;
+}
+
 .solution-card-container {
   display: flex;
   align-items: center;
@@ -43,4 +47,16 @@
 .solution-card-content li {
   margin-bottom: 5px;
   list-style: none;
+}
+
+.button-style2 {
+  background-color: var(--charcoal-grey);
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
 }

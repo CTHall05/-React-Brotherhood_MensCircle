@@ -1,0 +1,50 @@
+
+
+.Features-Component-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: var(--charcoal-grey);
+}
+
+.Features-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.Features-Component-h2 {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  height: 90vh;
+}
+
+.Features-Component-Card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: start;
+  gap: 20px ;
+  max-width: 400px;
+  background-color: lightgrey;
+  box-shadow: black 3px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Features-SearchConnect-Title h3, p {
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  text-align: start;
+}
+
+.Features-Component-Img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: solid 5px var(--charcoal-grey);
+  margin-left: 40px;
+}
