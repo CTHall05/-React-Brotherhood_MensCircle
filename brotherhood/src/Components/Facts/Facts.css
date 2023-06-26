@@ -23,7 +23,7 @@
 }
 
 .mens-facts-card {
-  background-color: var(--gunmetal-silver);
+  width: 90vw;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -31,10 +31,6 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-}
-
-.mens-facts-card > div {
-  margin-right: 20px;
 }
 
 .mens-facts-card h3 {
@@ -94,10 +90,6 @@
 .solution-component.fade-in {
   opacity: 1;
 }
-
-
-
-
 
 .facts-component-image {
   width: 300px;

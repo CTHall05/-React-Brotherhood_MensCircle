@@ -1,0 +1,12 @@
+
+
+.Features-Component-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: var(--charcoal-grey);
+}
+
+.Features-Component-h2 {
+  font-size: 50px;
+}

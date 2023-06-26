@@ -15,7 +15,7 @@ export default function IntroSection() {
           </div>
         </div>
       </div>
-          <button className='button-style'>Brotherhood.</button>
+          <button className='button-style'>Form Brotherhood.</button>
     </section>
   )
 }
