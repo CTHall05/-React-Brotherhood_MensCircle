@@ -12,6 +12,8 @@
 
 .facts-container {
   color: var(--charcoal-grey);
+  display: flex;
+  justify-content: center;
   /* display: flex;
   justify-content: center;
   text-align: center;
@@ -29,6 +31,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  justify-items: center;
   align-items: center;
   gap: 20px;
 }
